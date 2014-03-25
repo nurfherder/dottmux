@@ -1,0 +1,9 @@
+# Links for tmux configs
+
+# Basic Operation
+# cd ${DIR}
+# ln -s ${SRC} ${DST}
+
+#DIR:SRC:DST
+%HOME%:%HERE%/tmux.conf:.tmux.conf
+
