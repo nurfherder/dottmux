@@ -10,7 +10,8 @@ Prereqs:
 --------
 
  * git
- * Tmux installed
+ * [slink](https://github.com/nurfherder/slink)
+ * tmux
 
 Deploy:
 -------
@@ -22,6 +23,6 @@ Clone repo to your home directory:
 Create symlinks:
 
     cd ~/code/dot/dottmux
-    linkme.sh
+    slink
 
 
